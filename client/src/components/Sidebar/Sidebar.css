@@ -1,7 +1,8 @@
 .sidebar {
+    position: fixed;
+    left: 0;
     height: 100vh;
-    width: 15vw;
-    background-color: #20263a;
+    background: url("../../Assets/Rectangle\ 1.png");
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -34,6 +35,11 @@
     background-color: #1a1f30;
     border-radius: 10px 0px 0px 10px;
     margin: 20px 0px;
+}
+
+.sidebar-list-item img,
+.sidebar-logout-div img {
+    margin-top: 2px;
 }
 
 .dashboard {

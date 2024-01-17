@@ -1,0 +1,24 @@
+.AvatarCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px rgb(0 0 0 / 0.2)
+}
+
+.avatar-name {
+    font-weight: 700;
+    padding: 5px;
+}
+
+.avatar-designation {
+    color: #adadad;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 10px 0px;
+}
+
+.socials img {
+    margin: 15px 10px;
+}

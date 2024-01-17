@@ -21,7 +21,7 @@ const Sidebar = () => {
                 <ul>
                     <li>
                         <div className='sidebar-list-item dashboard'>
-                            <img src={CircledMenu} alt=''/>
+                            <img src={CircledMenu} alt='' />
                             <span className='list-text'>Dashboard</span>
                         </div>
                     </li>
@@ -48,7 +48,7 @@ const Sidebar = () => {
 
             <div className='sidebar-logout-div'>
                 <span>Logout</span>
-                <img src={Shutdown} alt=''/>
+                <img src={Shutdown} alt='' />
             </div>
 
         </div>
