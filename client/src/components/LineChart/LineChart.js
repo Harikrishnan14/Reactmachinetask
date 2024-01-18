@@ -8,10 +8,10 @@ const LineChart = () => {
   const [graphData, setGraphData] = useState({
     labels: [],
     datasets: [{
-      label: 'Y',
+      label: 'value',
       data: [],
-      borderColor: 'rgba(173, 216, 230)', // Light blue color
-      backgroundColor: 'rgba(173, 216, 230, 0.2)', // Light blue with reduced opacity
+      borderColor: 'rgba(173, 216, 230)',
+      backgroundColor: 'rgba(173, 216, 230, 0.2)',
     }],
   });
 
@@ -21,7 +21,7 @@ const LineChart = () => {
       setGraphData({
         labels: data.map(item => item.x),
         datasets: [{
-          label: 'Y',
+          label: 'value',
           data: data.map(item => item.y),
         }],
       });
