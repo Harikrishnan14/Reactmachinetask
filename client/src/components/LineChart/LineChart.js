@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { Line } from 'react-chartjs-2';
-import { Chart } from 'chart.js/auto';
 import axios from 'axios';
 import './LineChart.css'
 
 const LineChart = () => {
+  
   const [graphData, setGraphData] = useState({
     labels: [],
     datasets: [{
@@ -46,6 +46,9 @@ const LineChart = () => {
             },
             y: {
               beginAtZero: true,
+              ticks: {
+                stepSize: 5
+              }
             },
           },
           plugins: {

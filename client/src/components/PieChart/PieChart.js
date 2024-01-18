@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Pie } from 'react-chartjs-2';
+// eslint-disable-next-line
 import { Chart } from 'chart.js/auto';
 import axios from 'axios';
 import './PieChart.css'
@@ -19,7 +20,6 @@ const PieChart = () => {
   const fetchData = async () => {
     try {
       const { data } = await axios.get('http://localhost:3001/api/pie-chart');
-      // console.log(data);
       setGraphData({
         labels: data.map(item => item.label),
         datasets: [{

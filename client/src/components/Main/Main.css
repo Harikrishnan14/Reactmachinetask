@@ -47,10 +47,11 @@
 .third-div {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 0px 50px;
+    justify-content: space-between;
+    padding: 0px 80px;
 }
 
-.third-div {
-    padding-bottom: 20px;
+.third-div,
+.second-div {
+    padding-bottom: 10px;
 }

@@ -9,7 +9,6 @@ const TableChart = () => {
   const fetchData = async () => {
     try {
       const { data } = await axios.get("http://localhost:3001/api/table")
-      // console.log(data);
       setTableData(data)
     } catch (error) {
       console.log(error)
