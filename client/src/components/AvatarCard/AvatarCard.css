@@ -4,7 +4,8 @@
     align-items: center;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 2px 3px 5px rgb(0 0 0 / 0.2)
+    box-shadow: 2px 3px 5px rgb(0 0 0 / 0.2);
+    margin: 10px;
 }
 
 .avatar-name {
