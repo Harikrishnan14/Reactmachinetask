@@ -1,0 +1,12 @@
+.line-graph-div {
+    background: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px;
+    height: 350px;
+}
+
+.line-graph-div canvas {
+    height: 100%;
+    width: 100%;
+}

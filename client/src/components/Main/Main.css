@@ -1,6 +1,6 @@
 .main-component {
     background-color: #e8edff;
-    height: 100vh;
+    height: auto;
     margin-left: 15vw;
 }
 
@@ -49,4 +49,8 @@
     align-items: center;
     justify-content: space-around;
     padding: 0px 50px;
+}
+
+.third-div {
+    padding-bottom: 20px;
 }
